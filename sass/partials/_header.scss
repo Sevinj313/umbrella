@@ -1,0 +1,73 @@
+#wrap {
+	height:100%;
+
+	#header {
+		width: 100%;
+		height: $header_height;
+		background-color:$color_yellow ;
+		.navbar-default{
+			border-color: none;
+		}
+
+	.mainNav {
+		.navbar-right {
+			
+			@include padding-top(20px);
+				li{
+					font-size: 1.3em;
+					a{
+						text-transform: uppercase;
+					}
+				}
+			
+		}
+		margin-top:30px;
+		height:100px;
+		// padding-top:20px;
+		padding-bottom:20px;
+		.navbar-brand{
+			height: 0px;
+			line-height: 0px;
+			height:70px;
+			padding:0px;
+			}
+		}
+
+	.row{
+		font-size: 1.3em;
+		h1{
+			@include padding-top(90px);
+		}
+        h1 span{
+        	font-weight: bold;
+
+        }
+		li{
+			list-style-type: none;
+
+		}
+	}
+	 .btn-group{
+	 	border:1px solid black;
+
+
+	}
+
+	}
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+
+
+
+

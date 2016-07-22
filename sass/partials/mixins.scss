@@ -1,0 +1,6 @@
+@mixin padding-top($top){
+	padding-top:$top;
+	-webkit-padding-top:$top;
+	-moz-padding-top:$top;
+	-o-padding-top:$top;
+}
